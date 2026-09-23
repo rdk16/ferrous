@@ -1,0 +1,6 @@
+{
+  "date": "22/09/26",
+  "version": "1.0.0",
+  "engine": ["component", "types", "interprete"],
+  "authors": ["rdk16"]
+}
