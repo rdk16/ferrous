@@ -1,7 +1,6 @@
 {
   "tasks": {
-    "test": "deno run --watch --allow-read engine/test/main.ts",
-    "gity": "git rm -r --cached ."
+    "test": "deno fmt && deno run --watch --allow-read engine/null/main.ts"
   },
   "imports": {
     "@std/assert": "jsr:@std/assert@1",

@@ -7,4 +7,5 @@ printf "Hello world!".pink
 
 # loop
 loop 0*12 |i|:
-    printf `N($i) $/"finalizado".green/.`
+    if i !==
+    printf `$i executado com sucesso.`
