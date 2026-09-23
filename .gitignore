@@ -1,2 +1,3 @@
-node_modules
-**.lock
+node_modules/
+*.lock
+git commands
