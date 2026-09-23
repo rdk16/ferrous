@@ -1,1 +1,3 @@
-import * as runtime from "../mod";
+import { printf } from "../mod.ts";
+
+printf("Hello, World!", true)
