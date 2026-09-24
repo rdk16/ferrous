@@ -28,6 +28,7 @@ printf "Hello world!".pink
 
 # loop
 loop 0*12 |i|:
-    if i !==
+    if i !== 12: 
+      continue
     printf `$i executado com sucesso.`
 ```
