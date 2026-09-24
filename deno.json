@@ -1,6 +1,6 @@
 {
   "tasks": {
-    "test": "deno fmt && deno run --watch --allow-read engine/null/main.ts"
+    "test": "deno fmt && deno run --watch --allow-read source/@test/main.ts"
   },
   "imports": {
     "@std/assert": "jsr:@std/assert@1",

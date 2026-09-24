@@ -1,3 +1,3 @@
-import { isNumber, printf } from "../../engine/mod.ts";
+import { check, printf } from "../mod.ts";
 
-printf(isNumber("6oihuh"));
+printf(check(8, 8, "!=="), true);
