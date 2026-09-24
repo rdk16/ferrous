@@ -1,0 +1,22 @@
+mod "std.libraries/color" 
+mod "std.libraries/math" 
+
+printf("Hello, world!" color.Green)
+
+let h *number = 20
+let y *number = 3
+let u *number = 9
+
+let Result *number = (h * y) + u
+
+if (Result === 69):
+    printf(Result color.Blue) 
+
+loop (0 > 12) |i|:
+    printf "Executando o número $i"
+
+func random(min *number, max *number) *number:
+    let v *number = math.S(min > max)
+    return v 
+
+printf(random(1, 67) or 0)

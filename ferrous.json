@@ -1,0 +1,5 @@
+{
+  "archive": ["test/main.fr"],
+  "version": ">= 1.0.0",
+  "mode": 1
+}
