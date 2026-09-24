@@ -19,16 +19,12 @@
 #### Exemplo: 
 
 ```
-# packages
-mod "engine.print"
-mod "engine.print.color"
+mod "std.libraries/color" 
 
-# execute "hello world", color pink
-printf "Hello world!".pink 
+printf("Hello world!" color.Pink) 
 
-# loop
-loop 0*12 |i|:
-    if i !== 12: 
-      continue
-    printf `$i executado com sucesso.`
+loop (0 > 12) |i|:
+    if (i <= 12): 
+        printf(`$i executado com sucesso.`)
+    printf("Finalizado com sucesso.")
 ```
